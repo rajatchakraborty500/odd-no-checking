@@ -1,0 +1,10 @@
+import streamlit as st
+
+st.title("Odd Number Checker")
+
+my_list = [10, 20, 35, 40, 50, 38]
+
+checking_no = [i for i in my_list if i % 2 != 0]
+
+st.write("Original List:", my_list)
+st.write("Odd Numbers:", checking_no)
